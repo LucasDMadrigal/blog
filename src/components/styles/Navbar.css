@@ -1,0 +1,8 @@
+.nav_list {
+  margin-left: auto;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
