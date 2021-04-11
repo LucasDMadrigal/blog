@@ -5,7 +5,9 @@ export class Home extends Component {
         return (
             <main className="container-fluid home">
                 <header className="hero">
-                    <h1>Hero</h1>
+                    <h4>Mi nombre es </h4>
+                    <h1>Lucas Madrigal</h1>
+                    <h3>y soy frontend developer</h3>
                 </header>
             </main>
         )

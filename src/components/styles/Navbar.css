@@ -6,3 +6,12 @@
   position: sticky;
   top: 0;
 }
+
+.logo > img {
+  width: 55px;
+  height: 55px;
+}
+
+.nav_brand {
+  max-height: 72px;
+}
