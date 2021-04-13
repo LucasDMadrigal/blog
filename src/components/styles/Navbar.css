@@ -5,6 +5,18 @@
 .navbar {
   position: sticky;
   top: 0;
+  background-color: aliceblue;
+  /* border-bottom: 1px solid black; */
+}
+
+.link {
+  color: #de6b48;
+}
+
+.link:hover {
+  color: #f9e3dd;
+  /* text-decoration: underline solid #de6b48; */
+  background-color: #de6b48;
 }
 
 .logo > img {

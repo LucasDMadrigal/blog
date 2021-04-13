@@ -1,33 +1,33 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./styles/Navbar.css";
-import Logo from '../images/logo.png'
+import Logo from '../images/logo2.png'
+// import Logo from '../images/logo3.png'
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-light bg-gradient">
+                <div className="container">
                     <Link className="navbar-brand nav_brand" to="/">
                         <figure className="logo">
-                            <img className src={Logo} alt="" />
+                            <img className src={Logo} alt="Lucas Madrigal | Frontend Developer" />
                         </figure>
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
 
-                    <div className=" navbar-collapse" id="navbar">
+                    <div className="" id="navbar">
                         <ul className="nav nav_list">
 
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link link" to="/about">Sobre mi</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                                <Link className="nav-link link" to="/portfolio">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                                <Link className="nav-link link" to="/contact">Contacto</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link link" to="/Blog">Blog</Link>
                             </li>
                         </ul>
                     </div>
