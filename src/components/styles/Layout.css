@@ -5,7 +5,7 @@
   --secundary-color-dark: #de6b48;
   --secundary-color: #ecab98;
   --secundary-color-ligth: #f9e3dd;
-  --header-size: 4rem;
+  /* --header-size: 4rem  ; */
   /* --font: 1.8rem; */
 }
 
@@ -13,6 +13,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 html {

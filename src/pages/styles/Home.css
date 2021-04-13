@@ -1,24 +1,40 @@
-main {
+/* main {
   height: 200vh;
-}
+} */
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 535px;
   color: #02182b;
 }
 
+/* .her-el {
+  margin-bottom: auto;
+} */
+
 .hero > h1 {
   font-size: 6.6rem;
+  margin: auto;
 }
 
-.hero > h4 {
-  font-size: 3.6rem;
-}
 .hero > h3 {
+  font-size: 3.2rem;
+  margin: auto;
+  margin-top: 80px;
+}
+.hero > .sub-title {
   font-size: 2.4rem;
   color: #77bcf9;
+  margin: auto;
+}
+
+.about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: #f3f5f7 1px solid;
+  border-radius: 15px;
+  background-color: #f3f5f7;
 }

@@ -5,17 +5,17 @@
 .navbar {
   position: sticky;
   top: 0;
-  background-color: aliceblue;
-  /* border-bottom: 1px solid black; */
+  /* background-color: #ecf5fe; */
+  background-color: #19647e;
 }
 
 .link {
-  color: #de6b48;
+  /* color: #de6b48; */
+  color: #f9e3dd;
 }
 
 .link:hover {
   color: #f9e3dd;
-  /* text-decoration: underline solid #de6b48; */
   background-color: #de6b48;
 }
 

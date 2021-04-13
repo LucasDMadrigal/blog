@@ -18,7 +18,7 @@ class Navbar extends Component {
                         <ul className="nav nav_list">
 
                             <li className="nav-item">
-                                <Link className="nav-link link" to="/about">Sobre mi</Link>
+                                <Link className="nav-link link" to="/#about">Sobre mi</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link link" to="/portfolio">Portfolio</Link>
