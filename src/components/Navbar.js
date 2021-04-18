@@ -7,7 +7,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-gradient">
-                <div className="container">
+                <div className="container-fluid">
                     <Link className="navbar-brand nav_brand" to="/">
                         <figure className="logo">
                             <img className src={Logo} alt="Lucas Madrigal | Frontend Developer" />

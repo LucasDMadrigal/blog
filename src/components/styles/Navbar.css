@@ -7,11 +7,14 @@
   top: 0;
   /* background-color: #ecf5fe; */
   background-color: #19647e;
+  /* display: flex;
+  flex-direction: row-reverse; */
 }
 
 .link {
   /* color: #de6b48; */
   color: #f9e3dd;
+  padding: 4px;
 }
 
 .link:hover {
@@ -19,11 +22,17 @@
   background-color: #de6b48;
 }
 
+.logo {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
 .logo > img {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
 }
 
 .nav_brand {
   max-height: 72px;
+  margin: 0;
 }
