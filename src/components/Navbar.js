@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./styles/Navbar.css";
-import Logo from '../images/logo2.png'
+import Logo from '../assets/images/logo2.png'
 // import Logo from '../images/logo3.png'
 class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-gradient">
-                <div className="container-fluid">
+                <div className="container navbar_container">
                     <Link className="navbar-brand nav_brand" to="/">
                         <figure className="logo">
                             <img className src={Logo} alt="Lucas Madrigal | Frontend Developer" />
