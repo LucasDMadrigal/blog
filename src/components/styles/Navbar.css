@@ -3,16 +3,12 @@
 }
 
 .navbar {
-  position: sticky;
-  top: 0;
-  /* background-color: #ecf5fe; */
+  /* position: sticky;
+  top: 0; */
   background-color: #19647e;
-  /* display: flex;
-  flex-direction: row-reverse; */
 }
 
 .link {
-  /* color: #de6b48; */
   color: #f9e3dd;
   padding: 4px;
 }

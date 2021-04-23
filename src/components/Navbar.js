@@ -6,7 +6,7 @@ import Logo from '../assets/images/logo2.png'
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-gradient">
+            <nav className="navbar navbar-expand-lg navbar-light bg-gradient sticky-top">
                 <div className="container navbar_container">
                     <Link className="navbar-brand nav_brand" to="/">
                         <figure className="logo">
@@ -26,9 +26,9 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <Link className="nav-link link" to="/contact">Contacto</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link link" to="/Blog">Blog</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
