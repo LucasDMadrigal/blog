@@ -18,7 +18,6 @@
 
 .card-container figure,
 .card-container img {
-  margin: 0;
   background-color: #f3f5f7;
   max-height: 294px;
   display: flex;
@@ -26,6 +25,9 @@
 }
 .gif {
   margin: auto;
+}
+.gif-container {
+  margin-bottom: 0;
 }
 .card_body {
   background-color: #f3f5f7;
