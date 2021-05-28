@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 function Layout(props) {
     return (
-        <div className="">
+        <div >
             <Navbar />
             {props.children}
 

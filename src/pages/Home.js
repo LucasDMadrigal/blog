@@ -11,9 +11,23 @@ export class Home extends Component {
                 </header>
                 <section className="container about" id="about">
                     <h1>Sobre mi</h1>
-                    <p>Soy un Desarrollador web que vive en Tucumán, Argentina. Tengo 28 años y bla bla. <br />
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, voluptatem quam. Quidem fuga voluptatem quam voluptatum incidunt in obcaecati odit veritatis possimus voluptatibus recusandae tenetur ad, amet dolores neque similique. <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatum rem aperiam excepturi. Ex illo voluptate, delectus, expedita voluptatibus laudantium, velit rem doloribus at exercitationem earum. Ad adipisci nihil sapiente, rerum corrupti eum, eius commodi, asperiores dolores amet quasi similique aspernatur ducimus vitae ullam iste voluptatibus doloremque exercitationem minima pariatur?
+                    <p>Soy un Desarrollador web vivo en Tucumán, Argentina.<br />
+                   Mi formacion fue en parte en la universidad Tecnologica Nacional donde curse la carrera de Tecnico Universitario en programacion; Con grandes docentes y profesionales adquiri los conocimientos basicos para empezar a desarrollarme como profesional.
+                   </p>
+                    <br />
+                    <p>
+                        Otra de mis grandes escuelas fue Platzi. Los profesores y la comunidad de Platzi me dieron un panorama mucho mas claro de la industria y como estamos y a donde vamos a nivel latinoamerica, y aprendi a manejar lenguajes de la web (HTML, CSS, JavaScript) y conocimientos que en la universidad no tuve la oportunidad de profundizar (Algoritmos, diseño Web, responsive design).
+                   </p>
+                    <br />
+                    <p>
+                        Tengo un gran sentido de la curiosidad y disfruto mucho de aprender cosas nuevas. Eso me lleva a leer e investigar con gran pasion. Cuando tengo una duda no me detengo hasta resolverla.
+                    </p>
+                    <br />
+                    <p>
+                        Me concidero una persona espiritual, y eso sumado a mi curiosidad me llevaron a estudiar la Biblia, donde encontre resupuestas a muchas cosas. Hace unos años que asisto y soy parte de la Iglesia Adventista del Septimo Dia.
+                    </p>
+                    <p>
+                        Otras cosas que me apasionan son la musica y la cocina. Disfruto mucho de hacer deportes aunque no los practico seguido, pero trato de mantenerme siempre en movimiento.
                     </p>
                 </section>
             </main>

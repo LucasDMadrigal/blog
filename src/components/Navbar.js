@@ -16,7 +16,6 @@ class Navbar extends Component {
 
                     <div className="" id="navbar">
                         <ul className="nav nav_list">
-
                             <li className="nav-item">
                                 <Link className="nav-link link" to="/#about">Sobre mi</Link>
                             </li>
@@ -26,9 +25,6 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <Link className="nav-link link" to="/contact">Contacto</Link>
                             </li>
-                            {/* <li className="nav-item">
-                                <Link className="nav-link link" to="/Blog">Blog</Link>
-                            </li> */}
                         </ul>
                     </div>
                 </div>
