@@ -34,7 +34,7 @@ function Portfolio() {
                         <div className="card-body card_body">
                             <h5 className="card-title">100tifi.co</h5>
                             <p className="card-text">Un pequeño proyecto de JS vanilla para el curso de platzi de SPA.
-                            Consumimos una api de Rick and morty e hicimos el deploy utilizando Travis CI. disfrutenlo!</p>
+                                Consumimos una api de Rick and morty e hicimos el deploy utilizando Travis CI. disfrutenlo!</p>
                             <p className="card-text card_body--link">
 
                                 <small className="link_run">
@@ -71,10 +71,10 @@ function Portfolio() {
                         <div className="card-body card_body">
                             <h5 className="card-title">Lazy Fox</h5>
                             <p className="card-text">Una pequeña ejercicio para trabajar el Manejo de DOM con JS vanilla.
-                            La idea es muy simple. solo muestra un listado de fotos de zorros utilizado el lazy loading.</p>
+                                La idea es muy simple. solo muestra un listado de fotos de zorros utilizado el lazy loading.</p>
                             <p className="card-text card_body--link">
                                 <small className="link_run">
-                                    <a target="blank" href="https://lucasdmadrigal.github.io/100tifi.co/">puedes probar la app aqui</a>
+                                    <a target="blank" href="https://lucasdmadrigal.github.io/lazy-fox/">puedes probar la app aqui</a>
                                 </small>
 
                                 <small className="link_repo">
@@ -91,7 +91,7 @@ function Portfolio() {
                     <div className="col-md-4">
 
                         <figure className="gif-container">
-                            <img className="gif" src={batavideo} />
+                            <img alt="bata-bit-gif" className="gif" src={batavideo} />
                         </figure>
 
                     </div>

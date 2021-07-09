@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import "./styles/Navbar.css";
 import Logo from '../assets/images/logo2.png'
 // import Logo from '../images/logo3.png'
@@ -8,22 +7,22 @@ class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-gradient sticky-top">
                 <div className="container navbar_container">
-                    <Link className="navbar-brand nav_brand" to="/">
+                    <a className="navbar-brand nav_brand" href="/">
                         <figure className="logo">
-                            <img className src={Logo} alt="Lucas Madrigal | Frontend Developer" />
+                            <img src={Logo} title="Lucas Madrigal | Frontend Developer" alt="Lucas Madrigal | Frontend Developer" />
                         </figure>
-                    </Link>
+                    </a>
 
                     <div className="" id="navbar">
                         <ul className="nav nav_list">
                             <li className="nav-item">
-                                <Link className="nav-link link" to="/#about">Sobre mi</Link>
+                                <a title="Sobre mi" className="nav-link link" href="/#about">Sobre mi</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link link" to="/portfolio">Portfolio</Link>
+                                <a title="Portfolio" className="nav-link link" href="/portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link link" to="/contact">Contacto</Link>
+                                <a title="Contáctame" className="nav-link link" href="/contact">Contacto</a>
                             </li>
                         </ul>
                     </div>
