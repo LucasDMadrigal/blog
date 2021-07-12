@@ -24,6 +24,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 50vw;
+  max-width: 270px;
 }
 
 .social-media:hover {
@@ -54,4 +56,11 @@
 .social-media :hover {
   background-color: #de6b48;
   color: #f9e3dd;
+}
+
+@media (min-width: 1440px) {
+  .social-media_container
+  {
+
+  }
 }

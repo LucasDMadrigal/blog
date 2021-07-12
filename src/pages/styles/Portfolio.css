@@ -4,7 +4,6 @@
   height: 294px;
   display: flex;
   align-items: center;
-  /* max-width: 220px; */
 }
 
 .carousel_container figure img {
@@ -59,4 +58,11 @@
   text-decoration: none;
   background-color: #de6b48;
   color: #f9e3dd;
+}
+
+.portfolio_main--container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
 }
