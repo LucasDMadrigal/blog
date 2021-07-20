@@ -45,6 +45,8 @@
   border: #f3f5f7 1px solid;
   border-radius: 15px;
   background-color: #f3f5f7;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+
 }
 
 @media (min-width: 1440px) {

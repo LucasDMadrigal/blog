@@ -1,6 +1,6 @@
-import React from 'react'
-import emailjs from 'emailjs-com'
-import './styles/Contact.css'
+import React from 'react';
+import emailjs from 'emailjs-com';
+import './styles/Contact.css';
 
 function Contact() {
 
@@ -8,7 +8,7 @@ function Contact() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_aic3iy5', 'template_p70wyzr', e.target, 'user_qIJzZjoZMlupoiS5f4Ta4')
+        emailjs.sendForm('service_aic3iy5', 'template_e48d5um', e.target, 'user_qIJzZjoZMlupoiS5f4Ta4')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
