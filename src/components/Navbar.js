@@ -2,7 +2,7 @@ import React from 'react';
 import "./styles/Navbar.css";
 import Logo from '../assets/images/logo2.png'
 // import Logo from '../images/logo3.png'
-function Navbar(props) {
+function Navbar() {
 
 
     return (
