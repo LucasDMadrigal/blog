@@ -3,6 +3,8 @@
 
 #### Gracias por pasarte!!
 
+Puedes probar la app [aqui]("https://lucasmadrigal.netlify.app/", "aqui")
+
 -------------
 
 # My Blog
@@ -10,3 +12,5 @@
 ### This is a site where I will show my work and projects. Not all. But the ones that show the things that I can do. In it you will also find a contact section where you can send me an email and we can be in contact to work together.
 
 ### Thanks!!
+
+You can visit [here]("https://lucasmadrigal.netlify.app/", "here")
